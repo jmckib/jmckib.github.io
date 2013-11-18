@@ -1,0 +1,39 @@
+---
+layout: post
+title: ""Stumbling on Happiness""
+date: 2013-11-12 22:14
+comments: true
+categories: 
+---
+
+I think all of us can agree that we want to be happy. However, I would wager that most people are not as happy as they want to be. Most of us are constantly striving for something more, and if we could just *get there* -- if we could get a more interesting job, financial independence, live in the perfect place, etc. -- then we'd be happy. However, in my experience, the happiness that I get once I finally *get there* is short-lived, and then my average level of happiness quickly returns to its previous level.
+
+
+At times I've accepted this as inevitable. "It's just the human condition" I would say to myself. I've grown used to the cycle; I'm filled with a burning desire for something more, I go after it with all my energy, pour my heart into it, finally attain it, and then the desire refocuses elsewhere, on another goal that is just over the horizon. By now (I'm 25 years old), the situation has gotten so ridiculous and repetitive that I've decided I must be missing something, and so I started looking around for answers.
+
+One of the first resources I stumbled on was Daniel Gilbert's book, [Stumbling on Happiness](http://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427). He's also got [an excellent TED Talk](http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html) that summarizes a few ideas in the book. Since I just finished the book, I thought I'd use this first post to summarize what I think are its most important lessons.
+
+{% img right http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/M%C3%BCller-Lyer_illusion.svg/200px-M%C3%BCller-Lyer_illusion.svg.png The Müller-Lyer illusion. Which line is longer? %}
+
+First, our ability to imagine the future, our *prospection*, is as error-prone as our ability to recall the past. The problem is that we prospect constantly, without even realizing it, and we never learn to question the products of our prospection. As Gilbert shows in parts 3-5 of the book, we make predictable errors as we try to imagine the future, just as our eyes make predictable errors when viewing an optical illusion.
+
+Second, we have a powerful "psychological immune system", as Gilbert calls it, which returns us to a baseline level of happiness when life gets rough. However, we do a poor job of anticipating how powerful this immune system is, leading us to systematically make incorrect predictions about our future emotional states.
+
+Third, our powers of retrospection are as flawed as our powers of prospection, making it difficult for us to learn from our mistakes. For example, we often look forward to going on vacation, and then remember the vacation fondly, even if we didn't actually enjoy ourselves most of the time we were on vacation. How are we going to choose a better vacation next time if we trust blindly in our prospections and retrospections?
+
+
+So all of this is fairly interesting and depressing, but can we use this knowledge to make better decisions? Yes, there are a few practical lessons in the book:
+
+1. **Learn to anticipate the actions of your psychological immune system**, because it's a very real and powerful thing. Specifically, have courage and blunder forward, even if you're not sure of yourself. If you fail spectacularly your psychological immune system will pick up the pieces and return you to your normal level of happiness in short order.
+
+   Additionally, as Gilbert points out in Chapter 9, people more often regret not taking an action rather than taking it, "the most popular regrets include not going to college, not grasping profitable business opportunities, and not spending enough time with friends and family." As he explains, this is because our mind's immune system is more capable of rationalizing an action than an inaction, because we can always feel that we benefited by the experiences we gained, even if we failed in every other aspect.
+
+2. **When making an important decision, you shouldn't blindly trust your imagination.** In most cases it will fail to make accurate predictions about your future emotional states. Instead, you should get your answers from people who are currently experiencing the reality you are contemplating.
+
+   There are two excellent examples of this that apply to most people. The first is money. Economists and psychologists generally agree that after people make it out of poverty and into the middle class, more money does not buy more happiness. How many of us actually take this knowledge to heart?
+
+   The second example is having children. Research indicates that couples who have children are less happy than before they had children, and only return to their previous level of happiness after children leave the home. Even throughout the day, women are less happy while taking care of their children than they are while doing other routine activities, like eating or watching TV. Do most people even consider this research when deciding to have children?
+
+{% pullquote %}
+Most of us grow up trusting our imagination, but the overarching lesson of this book (which is backed by considerable evidence, read it and see!) is that {" we must learn to question the products of our imagination "} in the same way that we question other sources of information. We must look for more reliable ways of predicting our future emotional states or we will make the same mistakes again and again. Unfortunately, this is not always practical or easy to do in every situation, but from now on I will be on the lookout for better ways to predict my future happiness.
+{% endpullquote %}
