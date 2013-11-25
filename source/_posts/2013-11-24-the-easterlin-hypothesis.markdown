@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""The Easterlin Hypothesis""
+title: "The Easterlin Hypothesis"
 date: 2013-11-24 18:40
 comments: true
 categories: 

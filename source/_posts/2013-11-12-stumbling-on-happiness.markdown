@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""Stumbling on Happiness""
+title: "Stumbling on Happiness"
 date: 2013-11-12 22:14
 comments: true
 categories: 
