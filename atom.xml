@@ -4,7 +4,7 @@
   <title><![CDATA[Low-Hanging Fruit]]></title>
   <link href="http://jmckib.github.io/atom.xml" rel="self"/>
   <link href="http://jmckib.github.io/"/>
-  <updated>2013-11-17T21:20:54-08:00</updated>
+  <updated>2013-11-24T19:45:19-08:00</updated>
   <id>http://jmckib.github.io/</id>
   <author>
     <name><![CDATA[Jeremy Velev]]></name>
@@ -14,13 +14,36 @@
 
   
   <entry>
+    <title type="html"><![CDATA[The Easterlin Hypothesis]]></title>
+    <link href="http://jmckib.github.io/blog/2013/11/24/the-easterlin-hypothesis/"/>
+    <updated>2013-11-24T00:00:00-08:00</updated>
+    <id>http://jmckib.github.io/blog/2013/11/24/the-easterlin-hypothesis</id>
+    <content type="html"><![CDATA[<p>In my <a href="http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness/">last post</a>, I mentioned that most economists and psychologists agree that after people make it out of poverty and into the middle class, more money does not buy more happiness. However, my friend <a href="https://github.com/jianli">Jian Li</a> pointed out that this isn&rsquo;t entirely true, citing <a href="http://www.nytimes.com/2008/04/16/business/16leonhardt.html">an article in the NYTimes</a> about the recent work of two economists, Betsey Stevenson and Justin Wolfers.</p>
+
+<p>I can&rsquo;t access the paper linked in the NYTimes article (the page is timing out), but I was able to find an <a href="http://www.econtalk.org/archives/2013/06/stevenson_and_w.html">EconTalk podcast with Stevenson and Wolfers</a> where the findings are discussed in detail. In it, they argue that contrary to the famed <a href="http://en.wikipedia.org/wiki/Easterlin_paradox">Easterlin paradox</a>, which they relabel as the &ldquo;Easterlin hypothesis&rdquo;, absolute income <em>is strongly positively correlated</em> with happiness. And the data seems to back them up.</p>
+
+<p>For the moment, though, I stand by my previous claim that after escaping from poverty, additional income does not have a large effect on happiness, and it seems that Stevenson and Wolfers would agree. In the podcast they make two points that support this view:</p>
+
+<ol>
+<li><p>While maintaining that there is a strong positive correlation between absolute income and happiness (.8, to be exact), they stress that happiness is proportional to the log of income, meaning that each time a person&rsquo;s income is doubled it will only add a fixed constant to their level of happiness. For example, doubling someone&rsquo;s income from $50,000 a year to $100,000 a year will produce the same increase in happiness as further doubling their income from $100,000 to $200,000.</p>
+
+<p>So money does buy happiness, but after a certain point the effect of an extra dollar, or even an extra thousand dollars, becomes negligible. I&rsquo;m not sure where these thresholds are located, perhaps it varies significantly from person to person, but for me, personally, I feel that there isn&rsquo;t much extra happiness to be gained from additional income beyond the middle-class level.</p></li>
+<li><p>While Stevenson and Wolfers are certain there&rsquo;s a positive correlation between income and happiness, that doesn&rsquo;t mean that more money will make us as happy as we think it will, or that there aren&rsquo;t other elements of life that have a much bigger impact on happiness. This agrees with what Daniel Gilbert said in <a href="http://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427">Stumbling on Happiness</a> (see <a href="http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness/">last post</a>), namely, that people tend to overestimate how much happiness they&rsquo;ll get from additional income.</p></li>
+</ol>
+
+
+<p>In conclusion, I would be surprised if there&rsquo;s a silver bullet on the road to achieving greater happiness, but I do hope that there is some low-hanging fruit along the way. However, at least for those of us that don&rsquo;t live in poverty, additional income is not it.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Stumbling On Happiness]]></title>
     <link href="http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness/"/>
     <updated>2013-11-12T00:00:00-08:00</updated>
     <id>http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness</id>
     <content type="html"><![CDATA[<p>I think all of us can agree that we want to be happy. However, I would wager that most people are not as happy as they want to be. Most of us are constantly striving for something more, and if we could just <em>get there</em> &mdash; if we could get a more interesting job, financial independence, live in the perfect place, etc. &mdash; then we&rsquo;d be happy. However, in my experience, the happiness that I get once I finally <em>get there</em> is short-lived, and then my average level of happiness quickly returns to its previous level.</p>
 
-<p>At times I&rsquo;ve accepted this as inevitable. &ldquo;It&rsquo;s just the human condition&rdquo; I would say to myself. I&rsquo;ve grown used to the cycle; I&rsquo;m filled with a burning desire for something more, I go after it with all my energy, pour my heart into it, finally attain it, and then the desire refocuses elsewhere, on another goal that is just over the horizon. By now (I&rsquo;m 25 years old), the situation has gotten so ridiculous and repetitive that I&rsquo;ve decided I must be missing something, and so I started looking around for answers.</p>
+<p>At times I&rsquo;ve accepted this as inevitable. &ldquo;It&rsquo;s just the human condition&rdquo;, I would say to myself. I&rsquo;ve grown used to the cycle; I&rsquo;m filled with a burning desire for something more, I go after it with all my energy, pour my heart into it, finally attain it, and then the desire refocuses elsewhere, on another goal that is just over the horizon. By now (I&rsquo;m 25 years old), the situation has gotten so ridiculous and repetitive that I&rsquo;ve decided I must be missing something, and so I started looking around for answers.</p>
 
 <p>One of the first resources I stumbled on was Daniel Gilbert&rsquo;s book, <a href="http://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427">Stumbling on Happiness</a>. He&rsquo;s also got <a href="http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html">an excellent TED Talk</a> that summarizes a few ideas in the book. Since I just finished the book, I thought I&rsquo;d use this first post to summarize what I think are its most important lessons.</p>
 
