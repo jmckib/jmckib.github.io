@@ -1,24 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Low-Hanging Fruit]]></title>
-  <link href="http://jmckib.github.io/atom.xml" rel="self"/>
-  <link href="http://jmckib.github.io/"/>
-  <updated>2013-12-01T22:47:04-05:00</updated>
-  <id>http://jmckib.github.io/</id>
-  <author>
-    <name><![CDATA[Jeremy Velev]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Designing an artificial intelligence: An introduction to Bayesian statistics - Low-Hanging Fruit</title>
+  <meta name="author" content="Jeremy Velev">
 
   
-  <entry>
-    <title type="html"><![CDATA[Designing an artificial intelligence: An introduction to Bayesian statistics]]></title>
-    <link href="http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/"/>
-    <updated>2013-12-01T21:59:00-05:00</updated>
-    <id>http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics</id>
-    <content type="html"><![CDATA[<blockquote><p>I don&rsquo;t have anything in mind to post this week, so I&rsquo;m reposting this article I wrote for myself in 2010 after deep-diving into Bayesian statistics and finally making sense of it (at least in my own mind). I hope it makes sense to you too!</p></blockquote>
+  <meta name="description" content="I don&rsquo;t have anything in mind to post this week, so I&rsquo;m reposting this article I wrote for myself in 2010 after deep-diving into Bayesian &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Low-Hanging Fruit" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Low-Hanging Fruit</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:jmckib.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Designing an Artificial Intelligence: An Introduction to Bayesian Statistics</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-12-01T21:59:00-05:00" pubdate data-updated="true">Dec 1<span>st</span>, 2013</time>
+        
+           | <a href="#disqus_thread"
+             data-disqus-identifier="http://jmckib.github.io">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><blockquote><p>I don&rsquo;t have anything in mind to post this week, so I&rsquo;m reposting this article I wrote for myself in 2010 after deep-diving into Bayesian statistics and finally making sense of it (at least in my own mind). I hope it makes sense to you too!</p></blockquote>
 
 <h3>
 First principles
@@ -404,7 +478,7 @@ Finally, by dividing both sides by <em>B(C | I)</em>, we have the Bayes&#8217;-L
 <p>
 <strong>Bayes&#8217; Rule</strong>:
 <center>
-<img class="tex" alt="B(A \,|\, C,\, I) = {B(C\, |\, A,\, I) \cdot B(A \,|\, I)\over B(C\, |\, I)}" src="http://jmckib.github.io/images/2013-12-01/latex-image-1.png">
+<img class="tex" alt="B(A \,|\, C,\, I) = {B(C\, |\, A,\, I) \cdot B(A \,|\, I)\over B(C\, |\, I)}" src="/images/2013-12-01/latex-image-1.png">
 </center>
 </p>
 
@@ -415,7 +489,7 @@ Finally, by dividing both sides by <em>B(C | I)</em>, we have the Bayes&#8217;-L
 If we let <em>A</em> be our hypothesis, and <em>C</em> be the data we have collected
 concerning the hypothesis, then we can see the true power of Bayes&#8217; rule.
 <center>
-<img class="tex" alt="B(hypothesis\, |\, data,\, I)\, =\, {B(data\, | \,hypothesis,\, I)\,\cdot\, B(hypothesis \,|\, I) \over B(data \,|\, I)}" src="http://jmckib.github.io/images/2013-12-01/latex-image-2.png">
+<img class="tex" alt="B(hypothesis\, |\, data,\, I)\, =\, {B(data\, | \,hypothesis,\, I)\,\cdot\, B(hypothesis \,|\, I) \over B(data \,|\, I)}" src="/images/2013-12-01/latex-image-2.png">
 </center>
 </p>
 
@@ -517,69 +591,134 @@ uncertain propositions.
   and papers on Bayesian&#8217; methods, allowing you to continue to learn on your own.
 </p>
 
-]]></content>
-  </entry>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
   
-  <entry>
-    <title type="html"><![CDATA[The Easterlin Hypothesis]]></title>
-    <link href="http://jmckib.github.io/blog/2013/11/24/the-easterlin-hypothesis/"/>
-    <updated>2013-11-24T18:40:00-05:00</updated>
-    <id>http://jmckib.github.io/blog/2013/11/24/the-easterlin-hypothesis</id>
-    <content type="html"><![CDATA[<p>In my <a href="http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness">last post</a>, I mentioned that most economists and psychologists agree that after people make it out of poverty and into the middle class, more money does not buy more happiness. However, my friend <a href="https://github.com/jianli">Jian Li</a> pointed out that this isn&rsquo;t entirely true, citing <a href="http://www.nytimes.com/2008/04/16/business/16leonhardt.html">an article in the NYTimes</a> about the recent work of two economists, Betsey Stevenson and Justin Wolfers.</p>
 
-<p>I can&rsquo;t access the paper linked in the NYTimes article (the page is timing out), but I was able to find an <a href="http://www.econtalk.org/archives/2013/06/stevenson_and_w.html">EconTalk podcast with Stevenson and Wolfers</a> where the findings are discussed in detail. In it, they argue that contrary to the famed <a href="http://en.wikipedia.org/wiki/Easterlin_paradox">Easterlin paradox</a>, which they relabel as the &ldquo;Easterlin hypothesis&rdquo;, absolute income <em>is strongly positively correlated</em> with happiness. And the data seems to back them up.</p>
+<span class="byline author vcard">Posted by <span class="fn">Jeremy Velev</span></span>
 
-<p>For the moment, though, I stand by my previous claim that after escaping from poverty, additional income does not have a large effect on happiness, and it seems that Stevenson and Wolfers would agree. In the podcast they make two points that support this view:</p>
-
-<ol>
-<li><p>While maintaining that there is a strong positive correlation between absolute income and happiness (.8, to be exact), they stress that happiness is proportional to the log of income, meaning that each time a person&rsquo;s income is doubled it will only add a fixed constant to their level of happiness. For example, doubling someone&rsquo;s income from $50,000 a year to $100,000 a year will produce the same increase in happiness as further doubling their income from $100,000 to $200,000.</p>
-
-<p>So money does buy happiness, but after a certain point the effect of an extra dollar, or even an extra thousand dollars, becomes negligible. I&rsquo;m not sure where these thresholds are located, perhaps it varies significantly from person to person, but for me, personally, I feel that there isn&rsquo;t much extra happiness to be gained from additional income beyond the middle-class level.</p></li>
-<li><p>While Stevenson and Wolfers are certain there&rsquo;s a positive correlation between income and happiness, that doesn&rsquo;t mean that more money will make us as happy as we think it will, or that there aren&rsquo;t other elements of life that have a much bigger impact on happiness. This agrees with what Daniel Gilbert said in <a href="http://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427">Stumbling on Happiness</a> (see <a href="http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness">last post</a>), namely, that people tend to overestimate how much happiness they&rsquo;ll get from additional income.</p></li>
-</ol>
+      
 
 
-<p>In conclusion, I would be surprised if there&rsquo;s a silver bullet on the road to achieving greater happiness, but I do hope that there is some low-hanging fruit along the way. However, at least for those of us that don&rsquo;t live in poverty, additional income is not it.</p>
-]]></content>
-  </entry>
+
+
+
+
+
+
   
-  <entry>
-    <title type="html"><![CDATA[Stumbling on Happiness]]></title>
-    <link href="http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness/"/>
-    <updated>2013-11-12T22:14:00-05:00</updated>
-    <id>http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness</id>
-    <content type="html"><![CDATA[<p>I think all of us can agree that we want to be happy. However, I would wager that most people are not as happy as they want to be. Most of us are constantly striving for something more, and if we could just <em>get there</em> &mdash; if we could get a more interesting job, financial independence, live in the perfect place, etc. &mdash; then we&rsquo;d be happy. However, in my experience, the happiness that I get once I finally <em>get there</em> is short-lived, and then my average level of happiness quickly returns to its previous level.</p>
-
-<p>At times I&rsquo;ve accepted this as inevitable. &ldquo;It&rsquo;s just the human condition&rdquo;, I would say to myself. I&rsquo;ve grown used to the cycle; I&rsquo;m filled with a burning desire for something more, I go after it with all my energy, pour my heart into it, finally attain it, and then the desire refocuses elsewhere, on another goal that is just over the horizon. By now (I&rsquo;m 25 years old), the situation has gotten so ridiculous and repetitive that I&rsquo;ve decided I must be missing something, and so I started looking around for answers.</p>
-
-<p>One of the first resources I stumbled on was Daniel Gilbert&rsquo;s book, <a href="http://www.amazon.com/Stumbling-Happiness-Daniel-Gilbert/dp/1400077427">Stumbling on Happiness</a>. He&rsquo;s also got <a href="http://www.ted.com/talks/dan_gilbert_asks_why_are_we_happy.html">an excellent TED Talk</a> that summarizes a few ideas in the book. Since I just finished the book, I thought I&rsquo;d use this first post to summarize what I think are its most important lessons.</p>
-
-<p><img class="right" src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/M%C3%BCller-Lyer_illusion.svg/200px-M%C3%BCller-Lyer_illusion.svg.png" title="The Müller-Lyer illusion. Which line is longer?" ></p>
-
-<p>First, our ability to imagine the future, our <em>prospection</em>, is as error-prone as our ability to recall the past. The problem is that we prospect constantly, without even realizing it, and we never learn to question the products of our prospection. As Gilbert shows in parts 3-5 of the book, we make predictable errors as we try to imagine the future, just as our eyes make predictable errors when viewing an optical illusion.</p>
-
-<p>Second, we have a powerful &ldquo;psychological immune system&rdquo;, as Gilbert calls it, which returns us to a baseline level of happiness when life gets rough. However, we do a poor job of anticipating how powerful this immune system is, leading us to systematically make incorrect predictions about our future emotional states.</p>
-
-<p>Third, our powers of retrospection are as flawed as our powers of prospection, making it difficult for us to learn from our mistakes. For example, we often look forward to going on vacation, and then remember the vacation fondly, even if we didn&rsquo;t actually enjoy ourselves most of the time we were on vacation. How are we going to choose a better vacation next time if we trust blindly in our prospections and retrospections?</p>
-
-<p>So all of this is fairly interesting and depressing, but can we use this knowledge to make better decisions? Yes, there are a few practical lessons in the book:</p>
-
-<ol>
-<li><p><strong>Learn to anticipate the actions of your psychological immune system</strong>, because it&rsquo;s a very real and powerful thing. Specifically, have courage and blunder forward, even if you&rsquo;re not sure of yourself. If you fail spectacularly your psychological immune system will pick up the pieces and return you to your normal level of happiness in short order.</p>
-
-<p>Additionally, as Gilbert points out in Chapter 9, people more often regret not taking an action rather than taking it, &ldquo;the most popular regrets include not going to college, not grasping profitable business opportunities, and not spending enough time with friends and family.&rdquo; As he explains, this is because our mind&rsquo;s immune system is more capable of rationalizing an action than an inaction, because we can always feel that we benefited by the experiences we gained, even if we failed in every other aspect.</p></li>
-<li><p><strong>When making an important decision, you shouldn&rsquo;t blindly trust your imagination.</strong> In most cases it will fail to make accurate predictions about your future emotional states. Instead, you should get your answers from people who are currently experiencing the reality you are contemplating.</p>
-
-<p>There are two excellent examples of this that apply to most people. The first is money. Economists and psychologists generally agree that after people make it out of poverty and into the middle class, more money does not buy more happiness. How many of us actually take this knowledge to heart?</p>
-
-<p>The second example is having children. Research indicates that couples who have children are less happy than before they had children, and only return to their previous level of happiness after children leave the home. Even throughout the day, women are less happy while taking care of their children than they are while doing other routine activities, like eating or watching TV. Do most people even consider this research when deciding to have children?</p></li>
-</ol>
 
 
-<p><span class='pullquote-right' data-pullquote='we must learn to question the products of our imagination'>
-Most of us grow up trusting our imagination, but the overarching lesson of this book (which is backed by considerable evidence, read it and see!) is that we must learn to question the products of our imagination in the same way that we question other sources of information. We must look for more reliable ways of predicting our future emotional states or we will make the same mistakes again and again. Unfortunately, this is not always practical or easy to do in every situation, but from now on I will be on the lookout for better ways to predict my future happiness.
-</span></p>
-]]></content>
-  </entry>
+<time datetime="2013-12-01T21:59:00-05:00" pubdate data-updated="true">Dec 1<span>st</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
   
-</feed>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/" data-via="" data-counturl="http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2013/11/24/the-easterlin-hypothesis/" title="Previous Post: The Easterlin Hypothesis">&laquo; The Easterlin Hypothesis</a>
+      
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/">Designing an Artificial Intelligence: An Introduction to Bayesian Statistics</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/24/the-easterlin-hypothesis/">The Easterlin Hypothesis</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/12/stumbling-on-happiness/">Stumbling on Happiness</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - Jeremy Velev -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'lowhangingfruitblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/';
+        var disqus_url = 'http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
