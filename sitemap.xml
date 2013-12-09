@@ -2,28 +2,32 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://jmckib.github.io/blog/2013/11/12/stumbling-on-happiness/</loc>
-        <lastmod>2013-11-25T00:26:28-05:00</lastmod>
+        <lastmod>2013-11-24T21:26:28-08:00</lastmod>
     </url>
     <url>
         <loc>http://jmckib.github.io/blog/2013/11/24/the-easterlin-hypothesis/</loc>
-        <lastmod>2013-11-25T00:39:37-05:00</lastmod>
+        <lastmod>2013-11-24T21:39:37-08:00</lastmod>
     </url>
     <url>
         <loc>
             http://jmckib.github.io/blog/2013/12/01/designing-an-artificial-intelligence-an-introduction-to-bayesian-statistics/
         </loc>
-        <lastmod>2013-12-01T22:45:08-05:00</lastmod>
+        <lastmod>2013-12-01T19:45:08-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://jmckib.github.io/blog/2013/12/08/the-happiness-advantage/</loc>
+        <lastmod>2013-12-09T00:23:06-08:00</lastmod>
     </url>
     <url>
         <loc>http://jmckib.github.io/blog/archives/</loc>
-        <lastmod>2013-12-01T22:45:08-05:00</lastmod>
+        <lastmod>2013-12-09T00:23:06-08:00</lastmod>
     </url>
     <url>
         <loc>http://jmckib.github.io/</loc>
-        <lastmod>2013-12-01T22:45:08-05:00</lastmod>
+        <lastmod>2013-12-09T00:23:06-08:00</lastmod>
     </url>
     <url>
         <loc>http://jmckib.github.io/robots.txt</loc>
-        <lastmod>2013-11-25T00:07:26-05:00</lastmod>
+        <lastmod>2013-11-24T21:07:26-08:00</lastmod>
     </url>
 </urlset>
